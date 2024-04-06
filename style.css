@@ -1,0 +1,66 @@
+:root {
+    --clr-accent-400: rgb(25, 146, 212);
+    --clr-accent-200: rgb(240, 180, 41);
+
+    --clr-primary-100: rgb(255, 255, 255);
+    --clr-primary-900: rgb(0, 0, 0);
+
+    --clr-neutral: rgb(226, 232, 240);
+
+    --text-primary-100: var(--clr-primary-100);
+
+    --fw-bold:
+}
+
+/* Utility Classes */
+.bg-primary-100 {
+    background-color: var(--clr-primary-100);
+}
+
+.bg-primary-900 {
+    background-color: var(--clr-primary-900);
+}
+
+.bg-neutral {
+    background-color: var(--clr-neutral);
+}
+
+.bg-accent-200 {
+    background-color: var(--clr-accent-200);
+}
+
+.bg-accent-400 {
+    background-color: var(--clr-accent-400);
+}
+
+.text-primary-100 {
+    color: var(--text-primary-100);
+}
+
+.bigger-icon {}
+
+/* body, html{height: 100%;} */
+
+.container {
+    display: grid;
+}
+
+.main {
+    grid-template-columns: 1fr 4fr;
+    height: 100%;
+}
+
+
+.dashboard {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.header {
+    grid-column: 2/-1;
+}
+
+.main-content {
+    grid-column: 2/-1;
+}
+
